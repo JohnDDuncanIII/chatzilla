@@ -10,6 +10,10 @@ Check the github repository for updates:
 http://github.com/hagabaka/chatzilla-plugins/tree/master
 git://github.com/hagabaka/chatzilla-plugins.git
 
+Current:
+http://github.com/JohnDDuncanIII/chatzilla-plugins/tree/master
+git://github.com/JohnDDuncanIII/chatzilla-plugins.git
+
 PREFERENCES
 
 - showIcons: if "true" (default), icons are shown before labels in the tree to
@@ -17,6 +21,11 @@ PREFERENCES
 
 - treeAtLeft: if "true" (default), the channel tree is shown on the left side of
   the window. If "false", on the right.
+
+invoke with /plugin-pref channel-tree [pref] [bool]
+/plugin-pref channel-tree showIcons false
+/plugin-pref channel-tree treeAtLeft false
+
 
 TODO
 
@@ -38,4 +47,5 @@ CREDITS
   - user.png: Tango icon library (apps/user-info.png)
   - dcc-chat.png: Tango icon library (internet-group-chat.png)
   - dcc-file-transfer.png: Tango icon library (actions/mail-send-receive.png)
+  - channel/network/client png files have been modified to match the classic ChatZilla icon scheme 
   

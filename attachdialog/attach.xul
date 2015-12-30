@@ -1,0 +1,19 @@
+<?xml-stylesheet href="chrome://global/skin/"?>
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        title="Attach to server" class="dialog" windowtype="irc:attach">
+ <hbox align="center">
+  <vbox flex="1">
+   <hbox align="center">
+    <label value="Server:"/><textbox id="host"/>
+    <label value="Port:"/><textbox width="50" id="port" value="6667"/>
+   </hbox>
+   <hbox align="center">
+    <label value="Channel(s):"/><textbox flex="1" id="chan"/>
+   </hbox>
+  </vbox>
+  <vbox>
+   <button label="Attach" default="true" id="attach"/>
+   <button label="Cancel" id="cancel"/>
+  </vbox>
+ </hbox>
+</window>
