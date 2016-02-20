@@ -502,7 +502,7 @@ plugin.objectSelectedInTree = function() {
 
 plugin.setCurrentView = function(o) {
   var index = plugin.treeView.getIndexOfItem(o.treeItemNode);
-  plugin.treeView.selection.select(index);
+  //plugin.treeView.selection.select(index);
   plugin.syncStateForObject(o);
   var lastCurrentObject = plugin.lastCurrentObject;
   if(lastCurrentObject && lastCurrentObject != o) {

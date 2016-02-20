@@ -31,7 +31,7 @@
  *  Samuel Sieb, <samuel@sieb`net>, original author
  */
 
-const __id = "userlist_mover";
+const __id = "userlist-mover";
 const __maj_version = 1
 const __min_version = 0
 const __description = "Moves the userlist to the right side.  May be "+

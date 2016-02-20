@@ -1,1 +1,0 @@
-In order to get this too work, you need https://addons.mozilla.org/en-US/seamonkey/addon/remote-xul-manager/. Set the whitelist to <file> for all local files.
