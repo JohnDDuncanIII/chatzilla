@@ -48,8 +48,10 @@ function ad_enable()
 
 function ad_cmd(e)
 {
-    var wm = getService("@mozilla.org/appshell/window-mediator;1",
-                        "nsIWindowMediator");
+    var wm = Components.classes["@mozilla.org/appshell/window-mediator;1"] 
+                   .getService(Components.interfaces.nsIWindowMediator);
+    /*var wm = getService("@mozilla.org/appshell/window-mediator;1",
+                        "nsIWindowMediator");*/
     var exwin = wm.getMostRecentWindow("irc:attach");
     if(exwin)
     {

@@ -502,7 +502,7 @@ plugin.objectSelectedInTree = function() {
 
 plugin.setCurrentView = function(o) {
   var index = plugin.treeView.getIndexOfItem(o.treeItemNode);
-  plugin.treeView.selection.select(index); // possibly problematic
+  plugin.treeView.selection.select(index);
   plugin.syncStateForObject(o);
   var lastCurrentObject = plugin.lastCurrentObject;
   if(lastCurrentObject && lastCurrentObject != o) {
@@ -555,7 +555,6 @@ plugin.applyTreeSidePreference = function(){
 plugin.applyTreeWidthPreference = function(){
   plugin.tree.setAttribute("width",plugin.prefs["treeWidth"]);
 }
-
 
 plugin.putTree = function(){
   if(plugin.prefs["treeAtLeft"] == "true"){

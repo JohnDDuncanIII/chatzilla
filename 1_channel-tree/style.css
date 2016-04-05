@@ -19,6 +19,22 @@ tree#channel-tree > treechildren:-moz-tree-cell-text(attention) {
     color: red;
 }
 
+tree#channel-tree.showIcons > treechildren::-moz-tree-image(channel-tree-current) {
+    list-style-image: url("current.png") !important;
+}
+
+tree#channel-tree.showIcons > treechildren::-moz-tree-image(superfluous) {
+    list-style-image: url("superfluous.png") !important;
+}
+
+tree#channel-tree.showIcons > treechildren::-moz-tree-image(activity) {
+    list-style-image: url("activity.png") !important;
+}
+
+tree#channel-tree.showIcons > treechildren::-moz-tree-image(attention) {
+    list-style-image: url("attention.png") !important;
+}
+
 tree#channel-tree.showIcons > treechildren::-moz-tree-image(IRCChannel) {
     list-style-image: url("channel.png");
 }
